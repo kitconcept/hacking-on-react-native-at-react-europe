@@ -63,6 +63,19 @@ This will start the app on your phone.
 - React Native Tools
 https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native
 
+# VSCODE React Debugging
+
+- Install Debugging for Chrome vscode plugin
+https://code.visualstudio.com/blogs/2016/02/23/introducing-chrome-debugger-for-vs-code
+
+- Go to the Debugging tab
+
+- Create a new launch.json (the cog button on the top of the sidebar), then change the app port for the one that your app is using.
+
+- In your code, add breakpoints (might not work when in JSX), then the whole inspector appears on the IDE UI.
+
+- Press the play button, then reload and your app will stop in the breakpoints
+
 # OLD
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
