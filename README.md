@@ -1,3 +1,45 @@
+# hacking-on-react-native-at-react-europe
+
+## People
+
+- Timo Stollenwerk
+- Victor Fernandez de Alba
+- ...
+
+## Tasks
+
+- Basic Setup
+- IDE
+
+- React VR / 360
+- Inversive UX
+- Game
+- Tasks
+- Jenkins
+- Plone
+
+### Set up React Native App
+
+Tutorial:
+
+https://github.com/react-community/create-react-native-app
+
+Set up React Native app:
+
+```
+$ npm install -g create-react-native-app
+$ create-react-native-app react-europe-2018-playground
+$ cd create-react-native-2018-playground
+$ yarn start
+```
+
+This might fail. Then open XCode to install missing code.
+
+
+
+
+# OLD
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
