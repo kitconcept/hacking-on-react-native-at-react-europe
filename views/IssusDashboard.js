@@ -18,7 +18,7 @@ class SimpleCard extends React.Component {
   render () {
     const { title, content } = this.props
     return (
-      <View style={styles.container}>
+      <View style={styles.elm}>
         <Card full>
           <Card.Header
             title={title}
@@ -51,6 +51,10 @@ export class CardDashBoard extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    width: '100%'
+    width: '100%',
+    marginTop: '2%'
+  },
+  elm: {
+    marginStart: '10%'
   }
 })
