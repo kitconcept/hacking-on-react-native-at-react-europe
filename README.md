@@ -38,7 +38,30 @@ This might fail. Then open XCode to install missing code.
 Run "yarn start" again afterwards.
 
 
+## Exp
 
+- Create an account on expo.io
+- Install the expo IOS app
+- Install the expo command line interface:
+
+```
+npm install exp --global
+```
+
+- Start exp
+
+```
+$ exp start
+```
+
+This will start the app on your phone.
+
+- Your repo will show up on your expo app on your phone.
+
+# VSCode
+
+- React Native Tools
+https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native
 
 # OLD
 
