@@ -35,6 +35,8 @@ $ yarn start
 
 This might fail. Then open XCode to install missing code.
 
+Run "yarn start" again afterwards.
+
 
 
 
