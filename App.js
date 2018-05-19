@@ -4,6 +4,8 @@ import { FlatList, Alert } from 'react-native'
 
 const ACCESS_TOKEN = "";
 
+import MainTabView from './components/MainTabView';
+
 export default class App extends React.Component {
 
   constructor() {
@@ -47,6 +49,7 @@ export default class App extends React.Component {
   }
 
   render() {
+<<<<<<< HEAD
     const githubIssues = this.state.issues.map((issue) =>
       <Text key={issue.id}>{issue.title}</Text>
     );
@@ -72,3 +75,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+=======
+    return <MainTabView />;
+  }
+}
+>>>>>>> master
