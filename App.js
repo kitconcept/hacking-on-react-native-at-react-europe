@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import MainTabView from './components/MainTabView';
 import { Alert } from 'react-native'
 import { Button } from 'antd-mobile';
+import { CardDashBoard } from './views/IssusDashboard';
 
 
 
